@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #4d2d18;
+    display: flex;
+    padding: 5px 15px;
+    color: #caba9c;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.header h1 {
+    margin: 0px
+}
+
+.parks-container {
+    display: flex;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-self: center;
+}
+
+.park-item {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #4c6444;
+    align-items: center;
+    flex: none;
+}
+
+.acadia-image {
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: none;
+    width: 100%;
+}
+
+.park-item p {
+    color: white;
+    
+}
